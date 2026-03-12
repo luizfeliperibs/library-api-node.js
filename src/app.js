@@ -29,3 +29,8 @@ app.get("/livros/:id", (req, res) => {
     const index = buscaLivros(req.params.id);//params pq é um parametro da rota - id = nome do id
     res.status(200).json(livros[index]);
 });
+
+app.post("/livros", (req, res) => {
+    livros.push(req.body);
+    res.status(201).send("Livro cadastrado com sucesso!");
+});
