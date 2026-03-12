@@ -1,0 +1,21 @@
+{
+  "name": "library-api-node",
+  "version": "1.0.0",
+  "description": "Este projeto consiste no desenvolvimento de uma **API REST para gerenciamento de livros**, construída com **Node.js** utilizando o framework **Express**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizfeliperibs/library-api-node.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/luizfeliperibs/library-api-node.js/issues"
+  },
+  "homepage": "https://github.com/luizfeliperibs/library-api-node.js#readme"
+}
