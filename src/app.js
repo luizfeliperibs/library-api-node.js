@@ -34,3 +34,9 @@ app.post("/livros", (req, res) => {
     livros.push(req.body);
     res.status(201).send("Livro cadastrado com sucesso!");
 });
+
+app.put("/livros/:id", (req, res) => {
+    const index = buscaLivros(req.params.id);
+    livros[index].titulo = req.body.titulo;
+    res.status(200).json(livros);
+});
